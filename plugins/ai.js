@@ -393,7 +393,7 @@ const {
       pattern: "chat",
       desc: "chat with an AI",
       category: "ai",
-      use: "<Hii, Astro>",
+      use: "<Hii, Lumina>",
       filename: __filename,
     },
     async (_0x1c0160, _0x482db1) => {
@@ -404,7 +404,7 @@ const {
         await _0x1c0160.error(
           _0x4adf95 + "\n\ncommand: chat",
           _0x4adf95,
-          "*_no responce from chatbot, sorry!!_*"
+          "*_no response from chatbot, sorry!!_*"
         );
       }
     }
@@ -415,7 +415,7 @@ const {
       alias: ["dall", "dall-e"],
       desc: "chat with an AI",
       category: "ai",
-      use: "<Hii, Astro>",
+      use: "<Hii, Lumina>",
       filename: __filename,
     },
     async (m, q) => {
@@ -486,7 +486,7 @@ const {
                 _0x2968fd +
                 " ```" +
                 (_0x24d5e9
-                  ? "\n\n*[RESPONCE]:* ```" + _0x24d5e9 + "``` \n"
+                  ? "\n\n*[RESPONSE]:* ```" + _0x24d5e9 + "``` \n"
                   : "") +
                 "  \n " +
                 Config.caption +
@@ -565,7 +565,7 @@ const {
               "*[IMAGININATION]:* ```" +
               _0x5e79d4 +
               " ```" +
-              (_0x5d0b6a ? "\n\n*[RESPONCE]:* ```" + _0x5d0b6a + "``` \n" : "") +
+              (_0x5d0b6a ? "\n\n*[RESPONSE]:* ```" + _0x5d0b6a + "``` \n" : "") +
               "  \n " +
               Config.caption +
               " ",
@@ -619,7 +619,7 @@ const {
       pattern: "aitts",
       desc: "Text to Voice Using Eleven Lab Ai",
       category: "ai",
-      use: "<Hii, Astro>",
+      use: "<Hii, Lumina>",
       filename: __filename,
     },
     async (_0x1a01af, _0x1ac85a) => {
@@ -645,7 +645,7 @@ const {
       alias: ["recognition", "anonychat"],
       desc: "Send message Annonymously",
       category: "ai",
-      use: "<Hii, Astro>",
+      use: "<Hii, Lumina>",
       filename: __filename,
     },
     async (_0x358984, _0x20693a, { smd: _0x12d243 }) => {
@@ -655,7 +655,7 @@ const {
           return await _0x358984.send(
             "*provide number with msg to send Anonymously.* \n*Example " +
               (prefix + _0x12d243) +
-              " 2348039607375,your_Message*",
+              " 27000000000,your_Message*",
             {},
             "",
             _0x358984
@@ -689,7 +689,7 @@ const {
           _0x3079e2.msgStatus = true;
           _0x3079e2.senderMsg = _0x358984;
           _0x5f656f =
-            "*ᴀsᴛᴀ-ᴍᴅ • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
+            "*LuminaTech • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ*\n\n*Msg_Id:* " +
             _0x3079e2.id +
             "\n*Date:* _" +
             _0xbcd286 +
