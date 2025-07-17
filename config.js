@@ -6,20 +6,20 @@ global.audio = "";
 global.video = "";
 global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
-global.email = "Topudmh@gmail.com";
-global.location = "Njombe,Tanzania.";
+global.email = "lumina.technologies@gmail.com";
+global.location = "Johannesburg,South Africa.";
 global.mongodb = process.env.MONGODB_URI || "";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
-global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Dar es salaam";
-global.github = process.env.GITHUB || "https://github.com/Toputech/Topu-ai";
-global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r";
-global.website = process.env.GURL || "https://whatsapp.com/channel/0029VaeRrcnADTOKzivM0S1r";
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/13f1bb945857eb9b1eca6.jpg";
-global.devs = "255673750170";
-global.sudo = process.env.SUDO || "255673750170";
-global.owner = process.env.OWNER_NUMBER || "255673750170";
+global.timezone = process.env.TZ || process.env.TIME_ZONE || "Africa/Johannesburg";
+global.github = process.env.GITHUB || "https://github.com/sircylee/LuminaTech-V1";
+global.gurl = process.env.GURL || "https://whatsapp.com/channel/0029VbAaQrP90x2qv23Lud3h";
+global.website = process.env.GURL || "https://whatsapp.com/channel/0029VbAaQrP90x2qv23Lud3h";
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://files.catbox.moe/8lzr1d.mp4";
+global.devs = "27643779064";
+global.sudo = process.env.SUDO || "27751014718, 27643779064";
+global.owner = process.env.OWNER_NUMBER || "27643779064";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
 global.wlcm = process.env.WELCOME || "true";
@@ -27,9 +27,9 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "true";
-global.userImages = process.env.USER_IMAGES || "";
-global.waPresence = process.env.WAPRESENCE || "available";
-global.readcmds = process.env.READ_COMMAND || "false";
+global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/u6vije.jpg";
+global.waPresence = process.env.WAPRESENCE || "typing";
+global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
 global.readmessagefrom = process.env.READ_MESSAGE_FROM || "";
 global.read_status = process.env.AUTO_READ_STATUS || "true";
@@ -48,11 +48,11 @@ module.exports = {
   HANDLERS: process.env.PREFIX || ".",
   BRANCH: process.env.BRANCH || "main",
   VERSION: process.env.VERSION || "1.0.0",
-  caption: process.env.CAPTION || "𝖂𝖔𝖜 𝖙𝖔𝖕𝖚 𝖒𝖉 𝖍𝖆𝖘 𝖏𝖚𝖘𝖙 𝖌𝖊𝖓𝖊𝖗𝖆𝖙𝖊𝖉 𝖆 𝖓𝖊𝖜 𝖋𝖎𝖑𝖊",
-  author: process.env.PACK_AUTHER || "TOPU",
-  packname: process.env.PACK_NAME || "♥️",
-  botname: process.env.BOT_NAME || "TOP-Md",
-  ownername: process.env.OWNER_NAME || "TOPU",
+  caption: process.env.CAPTION || "*This was created by LuminaTechnologies*",
+  author: process.env.PACK_AUTHER || "Cylee ❤️🧸",
+  packname: process.env.PACK_NAME || "LuminaTechnologies",
+  botname: process.env.BOT_NAME || "🖤👾 LuminaTech-V1 👾🖤",
+  ownername: process.env.OWNER_NAME || "Cadillac Cylee 👾🖤",
   errorChat: process.env.ERROR_CHAT || "",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
@@ -64,7 +64,7 @@ module.exports = {
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
-  LANG: (process.env.THEME || "TOPU").toUpperCase(),
+  LANG: (process.env.THEME || "Lumina").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
