@@ -62,7 +62,7 @@ smd({
         return await msg.reply("*Please provide a search query.*");
       }
   
-      const apiUrl = `https://api-smd.onrender.com/api/bingsearch?query=${encodeURIComponent(query)}`;
+      const apiUrl = https://apis.davidcyriltech.my.id/ai/chatbot?query=Hello${encodeURIComponent(query)}`;
       const response = await fetch(apiUrl).then(res => res.json());
   
       if (!response || !response.status) {
