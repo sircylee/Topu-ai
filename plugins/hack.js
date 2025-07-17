@@ -2,7 +2,7 @@ const { smd, sleep } = require('../lib');
 
 smd({ cmdname: "hack", type: "fun", info: "hacking prank", filename: __filename }, async (citel) => {
   const messages = [
-    "Injecting Malware",
+    "LuminaTechnologies Injecting Malware",
     " █ 10%",
     " █ █ 20%",
     " █ █ █ 30%",
@@ -20,8 +20,8 @@ smd({ cmdname: "hack", type: "fun", info: "hacking prank", filename: __filename 
     " SENDING LOG DOCUMENTS...",
     " SUCCESSFULLY SENT DATA AND Connection disconnected",
     "BACKLOGS CLEARED"
-    "POWERED BY VENOCYBER MD"
-    "By Venocyber tech®"
+    "POWERED BY LuminaTechnologies"
+    "By LuminaTech-V1®"
   ];
 
   let editedMessage;
