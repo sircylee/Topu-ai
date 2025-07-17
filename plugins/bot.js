@@ -244,7 +244,7 @@ smd(
       const designs = [
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/z20pSwu.jpeg",
+            "https://files.catbox.moe/yssk22.png",
             {
               responseType: "arraybuffer",
             }
@@ -267,7 +267,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/lIo3cM2.jpeg",
+            "https://files.catbox.moe/yssk22.png",
             {
               responseType: "arraybuffer",
             }
@@ -289,7 +289,7 @@ smd(
         },
         async () => {
           const imageBuffer = await axios.get(
-            "https://i.imgur.com/OQOH4Gn.jpeg",
+            "https://files.catbox.moe/yssk22.png",
             {
               responseType: "arraybuffer",
             }
