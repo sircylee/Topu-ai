@@ -1,0 +1,51 @@
+{
+    "__JSON__": true,
+    "AUTHOR": "LuminaTechnologies",
+    "theme": "LuminaTech",
+    "LANGUAGE": "English",
+    "LANGCODE": "en",  
+    "STRINGS": { 
+        "updater": { 
+            "UPDATE": "*Believe it.\nYour bot is already up-to-date*",
+            "NEW_UPDATE": "*it's time to update the bot!*\n\n*Changes:*\n",
+            "UPDATED_LOCAL": "*Successfully Updated!*"
+        },  
+        "global": {      
+            "botName": "LuminaTech-V1",
+            "body": "whatsapp User Bot", 
+            "greet2" : "Thanks To LuminaTechnologies",
+            "pic1": "https://telegra.ph/file/13f1bb945857eb9b1eca6.jpg", 
+            "greet" : "Believe it",
+            "dotbody" : "I decided being Pirate King.",
+            "emojii" : "🍑", 
+            "promote": "Admin Role Given to Lumina",
+            "pmallow": "*Hii,This is Lumina\n You have been blocked for spamming.\n\n _Powered by LuminaTechnologies_",
+            "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n Join Public Support Channel : \nhttps://whatsapp.com/channel/0029VbAaQrP90x2qv23Lud3h\n\n*Powered by LuminaTechnologies*",
+            "permited": "Hii Sir/Madam*\n\nYou are now permitted by my owner to pm now.\n\n _Powered by LuminaTechnologies_", 
+            "revoked" : "*Hii Sir/Madam*\n\nYour pm permit permission has been prevoked now.\n\n _Powered by LuminaTechnologies_",
+            "demote": "Uhh,Admin Role Taken back",
+            "antlink": "Link Detected.\n*You done messed up, byeeeee*",
+            "session": "\n*This is your session.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by LuminaTechnologies*",
+            "mention": " Please mention My Owner",
+            "title": "LuminaTech-V1",
+            "footer": "©²⁰²⁴ LuminaTechnologies \nhttps://whatsapp.com/channel/0029VbAaQrP90x2qv23Lud3h",
+            "by": "Made by: LuminaTechnologies",
+            "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
+            "success": "Done ✓",
+            "dot": "Hi, Did you mean *-help?*\n just.. don't bother me while I'm eating ramen",
+            "couple_male": "*I'm pretty sure I can't live without being helped!*",
+            "couple_female": "*I'm pretty sure I can't live without being helped!*",
+            "admin": "LuminaTech-V1 or LuminaTech-V1⚠️!",
+            "botAdmin": "LuminaTech-V1.❗",
+            "owner": "LuminaTechnologies",
+            "group": "LuminaTech-V1 or LuminaTech-V1 ❗",
+            "private": "LuminaTech-V1⚠️",
+            "bot": "LuminaTech-V1⚠️",
+            "wait": "©²⁰²⁴LuminaTech-V1✅"
+        },
+        "error": {
+            "text": "*You may come to regret trying to manipulate me.\nNow go get this Error fixed*"
+        }
+    } 
+  }
+   
