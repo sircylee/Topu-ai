@@ -14,4 +14,4 @@ const start = async () => {
   }
 }
 start();
-/**TOPU TECH WHATSAPPP BOT**/
+/**LuminaTechnologies WHATSAPPP BOT**/
