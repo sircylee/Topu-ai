@@ -5,6 +5,5 @@
 -----------------------------------------------------------------
 
 
-# TOPU MD
+# LuminaTechnologies
 
-You can send anything via VODACOM Mpesa number 0757768881<b>Elibariki Kanuya </b>
