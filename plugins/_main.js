@@ -126,7 +126,7 @@ smd({
   pattern: "chat",
   desc: "chat with an AI",
   category: "ai",
-  use: "<Hii, Topu-tech>",
+  use: "<Hii, Lumina>",
   filename: __filename
 }, async (_0x1c0160, _0x482db1) => {
   try {
@@ -139,7 +139,7 @@ smd({
   pattern: "gpt",
   desc: "chat with an AI",
   category: "ai",
-  use: "<Hii, wasi-ser>",
+  use: "<Hii, Lumina>",
   filename: __filename
 }, async (_0x5cb388, _0x302ad5) => {
   try {
@@ -175,7 +175,7 @@ smd({
   try {
     let _0x1b0897 = _0x3f3887 ? _0x3f3887 : _0x42b3b8.reply_text;
     if (!_0x1b0897) {
-      return _0x42b3b8.reply("Provide me a query ex Who is Suhail");
+      return _0x42b3b8.reply("Provide me a query. e.g. LuminaTechnologies");
     }
     const _0x4c275e = await fetch("https://aemt.me/openai?text=" + _0x1b0897);
     const _0x4743c3 = await _0x4c275e.json();
@@ -193,12 +193,12 @@ smd({
   alias: ["dall", "dall-e"],
   desc: "chat with an AI",
   category: "ai",
-  use: "<Hii, wasi-ser>",
+  use: "<Hii, Lumina>",
   filename: __filename
 }, async (_0x21be87, _0x17d498) => {
   try {
     if (!_0x17d498) {
-      return await _0x21be87.reply("*Give Me A Query To Get Dall-E Reponce?*");
+      return await _0x21be87.reply("*Give Me A Query To Get Dall-E Reponse?*");
     }
     const _0x27bd9a = "https://gurugpt.cyclic.app/dalle?prompt=" + encodeURIComponent(_0x17d498);
     try {
@@ -229,7 +229,7 @@ smd({
   alias: ["imagin"],
   desc: "chat with an AI",
   category: "ai",
-  use: "<boy walking on street>",
+  use: "<pretty girl with a hoodie that says ''cylee''>",
   filename: __filename
 }, async (_0x9bac01, _0x3700d4) => {
   try {
@@ -249,7 +249,7 @@ smd({
       await Draw(_0x2968fd || _0x9bac01.reply_text).then(_0x1f03a3 => {
         _0x9bac01.bot.sendMessage(_0x9bac01.chat, {
           image: _0x1f03a3,
-          caption: "*[IMAGININATION]:* ```" + _0x2968fd + " ```" + (_0x24d5e9 ? "\n\n*[RESPONCE]:* ```" + _0x24d5e9 + "``` \n" : "") + "  \n " + Config.caption + " "
+          caption: "*[IMAGININATION]:* ```" + _0x2968fd + " ```" + (_0x24d5e9 ? "\n\n*[RESPONSE]:* ```" + _0x24d5e9 + "``` \n" : "") + "  \n " + Config.caption + " "
         });
       });
       return;
@@ -482,14 +482,14 @@ smd({
   pattern: "repo",
   alias: ["git", "sc", "script"],
   desc: "Sends info about repo",
-  category: "https://github.com/Toputech/Topu-ai",
+  category: "https://github.com/sircylee/LuminaTech-V1",
   filename: __filename
 }, async _0x45da98 => {
   try {
     let {
       data: _0x44f98c
-    } = await axios.get("https://github.com/Toputech/Topu-ai");
-    let _0x1c73f9 = ("\nтσρυ м∂ α ƒαѕтєѕт ωнαтѕαρρ вσт*" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* Topu-tech\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "undefined") + "\n  *❲❒❳ Repo:* _https://github.com/Toputech/Topu-ai_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
+    } = await axios.get("https://github.com/sircylee/LuminaTech-V1");
+    let _0x1c73f9 = ("\nLuminaTech-V1 α ƒαѕтєѕт ωнαтѕαρρ вσт*" + Config.ownername + "*.\n\n  *❲❒❳ Stars:* " + (_0x44f98c?.stargazers_count || "120+") + " stars\n  *❲❒❳ Forks:* " + (_0x44f98c?.forks_count || "1000+") + " forks\n  *❲❒❳ Authors:* LuminaTechnologies\n  *❲❒❳ Created On:* " + (_0x44f98c?.created_at || "July 17, 2025") + "\n  *❲❒❳ Repo:* _https://github.com/sircylee/LuminaTech-V1i_\n  *❲❒❳ Scan:* _" + scan + "_" + (Config.caption ? "\n\n" + Config.caption : "")).trim();
     return await _0x45da98.sendUi(_0x45da98.jid, {
    caption: _0x1c73f9 });
   } catch (_0x5816fe) {
@@ -545,14 +545,14 @@ smd({
   alias: ["advertisement"],
   category: "ai",
   desc: "Advertise of your Message, by sending it to provided nmbr range.",
-  use: "234902786xx,Your_text_here",
+  use: "27000000000, Your_text_here",
   fromMe: true,
   filename: __filename
 }, async (_0x165087, _0x13462a) => {
   try {
     let _0x14810d = _0x13462a ? _0x13462a : _0x165087.reply_text;
     if (!_0x14810d) {
-      return await _0x165087.reply("*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" + prefix + "advt 234902786xx,Your_text_here");
+      return await _0x165087.reply("*Advertise of your Message*\n*by sending it to provided nmbr range.*\n" + prefix + "advt 27000000000,Your_text_here");
     }
     const _0x94ba67 = _0x14810d.indexOf(",");
     if (_0x94ba67 === -1) {
@@ -561,7 +561,7 @@ smd({
     let _0xd9b857 = "" + _0x14810d.slice(0, _0x94ba67).trim();
     let _0x321dea = _0x14810d.slice(_0x94ba67 + 1).trim() + "\n\n\n" + Config.caption;
     if (!_0xd9b857.includes("x")) {
-      return _0x165087.send("*You did not add x in number.*\n*Ex: " + prefix + "advt 234902786xx,Your_Message_here*  \n " + Config.caption);
+      return _0x165087.send("*You did not add x in number.*\n*Ex: " + prefix + "advt 27000000000,Your_Message_here*  \n " + Config.caption);
     }
     await _0x165087.send("*Sending message to given number range.!*\n*It may take some time, so wait please*");
     function _0x4affa2(_0x9f9b09, _0x557f5a) {
@@ -621,7 +621,7 @@ smd({
   alias: ["recognition", "anonychat"],
   desc: "Send message Annonymously",
   category: "ai",
-  use: "<Hii, wasi-ser>",
+  use: "<Hii, Lumina>",
   filename: __filename
 }, async (_0x358984, _0x20693a, {
   smd: _0x12d243
@@ -629,7 +629,7 @@ smd({
   try {
     let _0x32512b = _0x20693a ? _0x20693a : _0x358984.reply_text;
     if (!_0x32512b) {
-      return await _0x358984.send("*provide number with msg to send Anonymously.* \n*Example " + (prefix + _0x12d243) + " 923192173398,your_Message*", {}, "", _0x358984);
+      return await _0x358984.send("*provide number with msg to send Anonymously.* \n*Example " + (prefix + _0x12d243) + " 27000000000,your_Message*", {}, "", _0x358984);
     }
     if (_0x358984.isCreator && _0x32512b === "info") {
       return await _0x358984.reply(isAnnonyMsgAlive == "" ? "*Theres no Anonymous Chat created yet*" : "*Anonymous Chat Recivers*\n_" + isAnnonyMsgAlive + "_");
@@ -676,7 +676,7 @@ smd({
       if (_0x2dfb59.length < 3) {
         return;
       }
-      if (_0x2acf30.reply_text.includes("TOPU-MD• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("TOPU-MD• ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
+      if (_0x2acf30.reply_text.includes("LuminaTechnologies • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[0].includes("LuminaTechnologies • ᴀɴɴᴏɴʏᴍᴏᴜs ᴍsɢ") && _0x2dfb59[2].includes("Msg_Id")) {
         let _0x1b0d01 = "" + _0x2dfb59[2].replace("*Msg_Id:* ", "").trim();
         let _0x2ecd2a = astro_patch_AnonyMsg[_0x1b0d01];
         if (!_0x2ecd2a) {
@@ -688,7 +688,7 @@ smd({
             if (_0x13a11c.toLowerCase().startsWith("reply")) {
               _0x2ecd2a.howmanyreply += 1;
               const _0x5a2204 = _0x2acf30.text.indexOf(",");
-              let _0x3f6b59 = "*TOPU-MD• ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" + _0x2ecd2a.reciever.split("@")[0] + "_*\n*_Msg_Id: " + _0x2ecd2a.id + "_*\n\n*Message:* " + _0x2acf30.text.slice(_0x5a2204 + 1).trim() + "\n\n\n\n" + Config.caption;
+              let _0x3f6b59 = "*LuminaTechnologies • ʏᴏᴜʀ ᴀɴᴏɴʏ-ᴍsɢ ʀᴇᴘʟʏ*\n\n*_From @" + _0x2ecd2a.reciever.split("@")[0] + "_*\n*_Msg_Id: " + _0x2ecd2a.id + "_*\n\n*Message:* " + _0x2acf30.text.slice(_0x5a2204 + 1).trim() + "\n\n\n\n" + Config.caption;
               if (_0x2ecd2a.howmanyreply >= 2) {
                 isAnnonyMsgAlive = isAnnonyMsgAlive.replace("," + _0x2acf30.sender, "");
               }
@@ -727,7 +727,7 @@ smd({
   pattern: "aitts",
   desc: "Text to Voice Using Eleven Lab Ai",
   category: "ai",
-  use: "<Hii, Topu-tech>",
+  use: "<Hii, Lumina>",
   filename: __filename
 }, async (_0x1a01af, _0x1ac85a) => {
   await aitts(_0x1a01af, _0x1ac85a || _0x1a01af.reply_text);
