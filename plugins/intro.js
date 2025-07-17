@@ -18,15 +18,15 @@
 //                                                                                            //
 //════════════════════════════════════════════════════════════════════════════════════════════//
 *                                                                 
-  * @project_name : Venocyber-md
-   * @author : Venocyber Tech.
-   * @youtube : https://www.youtube.com/@JASTINMTEWA-vn9pl
-   * @description : Venocyber-Md ,A Multi-functional whatsapp user bot.
+  * @project_name : LuminaTech-V1 
+   * @author : LuminaTechnologies.
+   * @youtube : https://www.youtube.com
+   * @description : LuminaTech-V1 ,A Multi-functional whatsapp user bot.
    * @version 2.5.0
 *
 * 
-   * Created By Venocyber Tech.
-   * © 2024 Venocyber-Md.
+   * Created By LuminaTechnologies.
+   * © 2025 LuminaTech-V1.
 
 
 */
@@ -52,20 +52,20 @@ const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 var surl = 'https://github.com/Kingjux/Venocyber-md' // Source URL
 const number = '255625774543'
-var name = ' VENOCYBER 𝕋𝔼ℂℍ'
+var name = ' LuminaTech-V1'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
-var image = 'https://telegra.ph/file/12b0fb245e6b8ba4bf718.jpg'
+var image = ''
 let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
-│       「 VENOCYBER 𝐓𝐄𝐂𝐇 𝐈𝐍𝐓𝐑𝐎  」
-│ Name      : VENOCYBER 
-│ Place       : NJOMBE, TANZANIA
-│ Gender    :  𝐌𝐀𝐋𝐄
+│       「 LuminaTech-V1 by LuminaTechnologies  」
+│ Name      : Lumina
+│ Place     : South Africa, Johannesburg. 
+│ Gender    :  Female 
 │ Age          : 20
 │ education : 𝐁𝐒c IT 
 │ good vibes : 𝐒𝐓𝐀𝐘 𝐂𝐋𝐀𝐌
-│ Phone     : wa.me/255625774543
-│ Youtube   : youtube.com/@JASTINMTEWA-vn9pl
-│ GitHub    : https://github.com/Kingjux 
+│ Phone     : wa.me/27643779064
+│ Youtube   : youtube.com
+│ GitHub    : https://github.com/sircylee
 
 ╰═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄`
 
