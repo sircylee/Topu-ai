@@ -50,11 +50,11 @@
 const { smd, Config,smdBuffer,  prefix } = require('../lib')
 
 
-var surl = 'https://github.com/Kingjux/Venocyber-md' // Source URL
-const number = '255625774543'
+var surl = 'https://github.com/sircylee/LuminaTech-V1' // Source URL
+const number = '27643779064'
 var name = ' LuminaTech-V1'
 var body = '𝑇𝛩𝑈𝐶𝛨 𝛨𝛯𝑅𝛯'
-var image = ''
+var image = 'https://files.catbox.moe/u6vije.jpg'
 let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
 │       「 LuminaTech-V1 by LuminaTechnologies  」
 │ Name      : Lumina
@@ -76,7 +76,7 @@ let text = `╭═══ ━ ━ ━ ━ • ━ ━ ━ ━ ═══♡᭄
  //---------------------------------------------------------------------------
  smd({
              pattern: "intro",
-             alias: ["venocyber","veno"],
+             alias: ["lumina","lum"],
              desc: "Show intro of user",
              category: "fun",
              filename: __filename,
